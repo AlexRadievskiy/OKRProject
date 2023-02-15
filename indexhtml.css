@@ -1,0 +1,20 @@
+.colorLink:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+.colorLink:visited {
+    color: #6db64f;
+    background-color: transparent;
+    text-decoration: none;
+}
+.colorLink:hover {
+    color: #225e26;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.colorLink:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
