@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Page1</title>
+    <link rel="stylesheet" type="text/css" href="mainStyle.css">
+    <link rel="stylesheet" type="text/css" href="tablePage3.css">
 
     <meta name="viewport" content="width=device-vidth, initial-scale=1">
     <meta name="author" content="Pasinchuk Oleksii">
@@ -40,12 +42,43 @@
     use of dishwashers, and clothes dryers were part of a shift for convenience. Increasing discretionary income was
     reflected by a rise in miscellaneous home appliances.</p>
 
-<b>A home appliance,</b> <strong>also referred to as a domestic appliance,</strong> <i>an electric appliance or a
-    household</i> <em>appliance</em>
-</body>
-</html></title>
-</head>
 <body>
+<table cellspacing="10" cellpadding="10">
+    <colgroup>
+        <col span="2" style="background-color: #ffffc2;">
+        <col style="background-color: #ff9c9c;">
+    </colgroup>
+    <thead>
+    <tr>
+        <th colspan="3" class="center">Table header</th>
+    </tr>
+    <tr>
+        <th>Column 1</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td rowspan="2"><img src="img1.jpg"></td>
+        <td><a href="http://example.com/">Link 1</a></td>
+        <td>Text 1-3</td>
+    </tr>
+    <tr>
+        <td><a href="http://example.com/">Link 2</a></td>
+        <td>Text 2-3</td>
+    </tr>
+    <tr>
+        <td colspan="2" class="top right">Text 3-1, Text 3-2</td>
+        <td class="bottom">Text 3-3</td>
+    </tr>
+    <tr>
+        <td>Text 4-1</td>
+        <td>Text 4-2</td>
+        <td class="middle">Text 4-3</td>
+    </tr>
+    </tbody>
+</table>
 
 </body>
 </html>

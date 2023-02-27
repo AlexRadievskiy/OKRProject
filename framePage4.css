@@ -1,0 +1,11 @@
+.floating-frame {
+    width: 50%;
+    margin: 0 auto;
+    float: none;
+}
+
+iframe {
+    border: none;
+    width: 100%;
+    height: 400px;
+}
