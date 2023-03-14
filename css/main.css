@@ -1,0 +1,152 @@
+/* Загальні стилі для всіх сторінок */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+
+.logo {
+    display: inline-block;
+    width: 35%;
+    height: 25%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #f8f8f8;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+}
+
+nav ul li ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li ul li a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+nav ul li ul li a:hover {
+    background-color: #ddd;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #fffdfb;
+    line-height: 1.5;
+    margin: 20px;
+    padding: 0;
+}
+
+/* Стилі для заголовка */
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/* Стилі для посилань */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Стилі для рівня документу для перевизначення стилю для посилань */
+body a:hover {
+    text-decoration: underline;
+}
+
+/* Стилі для абзаців */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+}
+
+/* Стилі для маркованого списку */
+ul {
+    list-style-type: disc;
+    margin-left: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+/* Стилі для нумерованого списку */
+ol {
+    list-style-type: decimal;
+    margin-left: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+/* Стилі для списку визначень */
+dl {
+    margin-bottom: 1.5em;
+}
+
+dt {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+dd {
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+}
+
+/* Стилі для таблиці */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+
+th, td {
+    padding: 0.5em;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Використання !important */
+h2 {
+    font-size: 24px !important;
+    color: #f00 !important;
+}
